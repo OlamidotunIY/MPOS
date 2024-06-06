@@ -23,7 +23,7 @@ const MobileNav = () => {
           <div className="pt-10">
             <NavRoutes isMobile={true} />
           </div>
-          <SheetFooter className="mt-auto">
+          <SheetFooter className="mt-auto mx-auto">
             <SheetClose asChild>
               <Link to={"/login"}>
                 <Button variant={"default"} size={"lg"} className="px-24">

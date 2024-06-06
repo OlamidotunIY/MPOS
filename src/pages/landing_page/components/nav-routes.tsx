@@ -27,8 +27,8 @@ const NavRoutes = ({
     },
   ];
   return (
-    <ul className={cn("md:items-center justify-center gap-5 hidden md:flex flex-col",
-      isMobile && 'flex'
+    <ul className={cn("md:items-center justify-center gap-5 hidden md:flex ",
+      isMobile && 'flex flex-col'
     )}>
       {routes.map((route, index) => {
         return (
