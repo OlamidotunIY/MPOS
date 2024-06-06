@@ -1,6 +1,13 @@
+import { cn } from "@/lib/utils";
 import { NavLink } from "react-router-dom";
 
-const NavRoutes = () => {
+interface props {
+isMobile? : Boolean
+}
+
+const NavRoutes = ({
+  isMobile
+} : props) => {
   const routes = [
     {
       path: "/",
@@ -20,7 +27,9 @@ const NavRoutes = () => {
     },
   ];
   return (
-    <ul className="items-center justify-center gap-x-5 hidden md:flex">
+    <ul className={cn("md:items-center justify-center gap-5 hidden md:flex flex-col",
+      isMobile && 'flex'
+    )}>
       {routes.map((route, index) => {
         return (
           <li key={index}>
