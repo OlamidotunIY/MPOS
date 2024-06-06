@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --primary: 179, 90%, 16%;
+  --primary-foreground: 0, 0%, 100%;
+  --primary-10: 180, 15%, 82%;
+  --primary-20: 178, 18%, 73%;
+  --primary-30: 180, 90%, 10%;
+
+  --secondary: 156, 100%, 86%;
+  --secondary-foreground: 0, 0%, 0%;
+  --secondary-10: 150, 100%, 97%;
+  --secondary-20: 150, 100%, 94%;
+  --secondary-30: 150, 30%, 41%;
+  --secondary-40: 150, 28%, 36%;
+
+  --background-primary: 0, 0%, 0%;
+  --background-default: 0, 0%, 100%;
+  --background-muted: 0, 0%, 98%;
+  --background-blue: 210, 27%, 95%;
+  --background-yellow: 50, 100%, 94%;
+  --background-green: 160, 24%, 96%;
+  --background-red: 30, 69%, 93%;
+}
+
+.text-d-lg {
+  @apply text-[57px] leading-[64px];
+}
+.text-d-md {
+  @apply text-[45px] leading-[52px];
+}
+.text-d-sm {
+  @apply text-[36px] leading-[43px];
+}
+.text-h-lg {
+  @apply text-[36px] leading-[39px];
+}
+.text-h-md {
+  @apply text-[28px] leading-[35px];
+}
+.text-h-sm {
+  @apply text-[24px] leading-[31px];
+}
+.text-t-lg {
+  @apply text-[20px] leading-[29px];
+}
+.text-t-md {
+  @apply text-[16px] leading-[23px];
+}
+.text-t-sm {
+  @apply text-[14px] leading-[21px];
+}
+.text-l-lg {
+  @apply text-[14px] leading-[21px];
+}
+.text-l-md {
+  @apply text-[12px] leading-[19px];
+}
+.text-l-sm {
+  @apply text-[11px] leading-[18px];
+}
+.text-b-lg {
+  @apply text-[16px] leading-[24px];
+}
+.text-b-md {
+  @apply text-[14px] leading-[21px];
+}
+.text-b-sm {
+  @apply text-[12px] leading-[19px];
+}
